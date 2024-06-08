@@ -15,5 +15,3 @@ production:
   pool: 5
   timeout: 5000
   url: <%= ENV['DATABASE_URL'] %>
-  username: root
-  password: <%= ENV['MYSITE_DATABASE_PASSWORD'] %>
